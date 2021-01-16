@@ -1,7 +1,7 @@
 .jumbotron {
-  background-color: #5dac8e;
+  background-color: #5d89ac;
   text-align: center;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 .mar_image, #thumbnail {
@@ -27,7 +27,7 @@
 }
 
 p.lead {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 28px;
 }
 
@@ -37,7 +37,7 @@ p.lead {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 h1 {
