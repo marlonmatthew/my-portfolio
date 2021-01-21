@@ -2,7 +2,7 @@
 
 ## Description
 
-![Capture](https://user-images.githubusercontent.com/73320305/104794952-edea5880-575f-11eb-971e-9e672ce5b90e.PNG)
+![Capture](https://user-images.githubusercontent.com/73320305/105277995-73537b80-5b59-11eb-86e3-9825d4111467.PNG)
 
 My web development portfolio featuring links for my email, phone number, LinkedIn and Resume.
 Previous freelance projects and assignments/projects are featured in the Portfolio section.
