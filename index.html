@@ -16,7 +16,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
   <title>Marlon Matthew - My Web Development Portfolio</title>
 
@@ -24,7 +24,7 @@
 
 <body>
 
-  <header class="jumbotron jumbotron-fluid">
+  <header class="jumbotron jumbotron-fluid" id="jumbo">
     <div class="container">
       <div class="row">
         <div class="col-md-auto mt-2 mb-4">
@@ -35,13 +35,15 @@
           <h1 class="display-4 jumbotron-header">Web Developer</h1>
           <p class="lead">from San Diego, California</p>
           <div>
-            <a href="mailto: marlonbmatthew@gmail.com"><button type="button"
-                class="btn btn-light bi bi-envelope-fill"></button></a>
-            <a href="tel: 619-504-4166"><button type="button" class="btn btn-light bi bi-phone-fill"></button></a>
+            <a href="mailto: marlonbmatthew@gmail.com"><button type="button" class="btn btn-light bi bi-envelope-fill"
+                id="headerButton"></button></a>
+            <a href="tel: 619-504-4166"><button type="button" class="btn btn-light bi bi-phone-fill"
+                id="headerButton"></button></a>
             <a href="https://www.linkedin.com/in/marlonmatthew/" target="_blank"><button type="button"
-                class="btn btn-light bi bi-linkedin"></button></a>
-            <a href="https://drive.google.com/file/d/1ra0CVGRRbU2U6afapvVvmKnFT1fkHeJY/view?usp=sharing"
-              target="_blank"><button type="button" class="btn btn-light bi bi-file-person-fill"></button></a>
+                class="btn btn-light bi bi-linkedin" id="headerButton"></button></a>
+            <a href="https://drive.google.com/file/d/1ovk_W7WIaI0peG7VFj2nYDJqODhI9sMs/view?usp=sharing"
+              target="_blank"><button type="button" class="btn btn-light bi bi-file-person-fill"
+                id="headerButton"></button></a>
           </div>
         </div>
       </div>
@@ -51,124 +53,203 @@
   <section class="container">
     <div class="row">
       <div class="col-md-auto mt-2 mb-4">
-        <h2 class="header">My Portfolio</h2>
+        <h2 class="header"><u>My Portfolio</u></h2>
         <ul class="list-unstyled">
           <li class="media">
-            <img src="img/weather-dashboard.jpg" class="mr-3" alt="Weather Dashboard" id="thumbnail">
+            <img src="img/bubbles-ems.jpg" class="mr-3" alt="Bubbles EMS" id="thumbnail">
             <div class="media-body">
-              <h5 class="mt-0 mb-1">Weather Dashboard</h5>
-              <p id="description">Search any city in the world to retrieve current weather conditions as well as a 5-day
-                forecast. UCR Coding Bootcamp assignment #6.</p>
-              <p><a href="https://marlonmatthew.github.io/weather-dashboard/" id="portfolio-link"
-                  target="_blank">Deployed Site</a>
+              <h5 class="mt-0 mb-1" id="project">
+                Bubbles EMS
+              </h5>
+              <p id="description">Dashboard for managing employee accounts, time, pay, and
+                schedules. Core responsibilities: Front-end design and CSS
+                styling, database schema, application concept. Technologies
+                used: HTML, CSS, Bootstrap, JavaScript, MongoDB, React. UCR
+                Coding Bootcamp project #3.</p>
+              <p>
+                <a href="https://peaceful-castle-79357.herokuapp.com/" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  Deployed Site
+                </a>
               </p>
-              <p><a href="https://github.com/marlonmatthew/weather-dashboard" id="portfolio-link" target="_blank">GitHub
-                  Repo</a>
-              </p>
-            </div>
-          </li>
-          <li class="media mb-4">
-            <img src="img/ricemusic.jpg" class="mr-3" alt="ricemusic.net" id="thumbnail">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">ricemusic.net</h5>
-              <p id="description">San Diego bassist Rice Enright has been a staple in the music community for many
-                years. It was important to create this site with WordPress and Elementor, which gave him the capability
-                to make future updates and edits on his own.</p>
-              <p><a href="https://www.ricemusic.net" id="portfolio-link" target="_blank">https://www.ricemusic.net</a>
+              <p>
+                <a href="https://github.com/marlonmatthew/Portal-Matriarch" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  GitHub Repo
+                </a>
               </p>
             </div>
           </li>
           <li class="media">
-            <img src="img/burger-devourment-app.jpg" class="mr-3" alt="Burger Devourment App" id="thumbnail">
+            <img src="img/gentle-drinkers.jpg" class="mr-3" alt="Gentle Drinkers" id="thumbnail">
             <div class="media-body">
-              <h5 class="mt-0 mb-1">Burger Devourment App</h5>
-              <p id="description">Add burgers to a database and change their devoured status.</p>
-              <p><a href="https://burger-devourment.herokuapp.com" id="portfolio-link"
-                  target="_blank">https://burger-devourment.herokuapp.com</a>
+              <h5 class="mt-0 mb-1" id="project">Gentle Drinkers</h5>
+              <p id="description">
+                Filter through a database of eclectic craft beers to aid the
+                selection process. Core responsibilities: Front-end design
+                and CSS styling, database schema. Technologies used: HTML,
+                CSS, Bootstrap, JavaScript, MySQL, Node.js, Express,
+                Handlebars.js. UCR Coding Bootcamp project #2.
               </p>
-              <p><a href="https://github.com/marlonmatthew/burger" id="portfolio-link" target="_blank">GitHub
-                  Repo</a>
+              <p>
+                <a href="https://gentledrinkers.herokuapp.com/" id="portfolio-link" target="_blank" rel="noreferrer">
+                  Deployed Site
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/marlonmatthew/beerapp" id="portfolio-link" target="_blank" rel="noreferrer">
+                  GitHub Repo
+                </a>
               </p>
             </div>
           </li>
           <li class="media">
             <img src="img/will-it-stream.jpg" class="mr-3" alt="Will It Stream" id="thumbnail">
             <div class="media-body">
-              <h5 class="mt-0 mb-1">willitstream.com</h5>
-              <p id="description">Search for your favorite movie or show titles and see where they are streaming. UCR
-                Coding Bootcamp project #1.</p>
-              <p><a href="https://willitstream.com" id="portfolio-link" target="_blank">https://willitstream.com</a>
+              <h5 class="mt-0 mb-1" id="project">willitstream.com
+              </h5>
+              <p id="description">
+                Search for movies or series and see where they are currently
+                streaming. Core responsibilities: Implemented API calls on
+                the back-end, fixed design issues on the front end, and
+                finalized overall design and functionality. Technologies
+                used: OMDb and uTelly APIs, HTML, CSS, Bootstrap,
+                JavaScript, JQuery, Ajax. UCR Coding Bootcamp project #1.
               </p>
-              <p><a href="https://github.com/marlonmatthew/will-it-stream" id="portfolio-link" target="_blank">GitHub
-                  Repo</a>
+              <p>
+                <a href="https://willitstream.com" id="portfolio-link" target="_blank" rel="noreferrer">
+                  https://willitstream.com
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/marlonmatthew/will-it-stream" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  GitHub Repo
+                </a>
               </p>
             </div>
           </li>
           <li class="media">
+            <img src="img/weather-dashboard.jpg" class="mr-3" alt="Weather Dashboard" id="thumbnail">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1" id="project">Weather Dashboard
+              </h5>
+              <p id="description">
+                Search any city in the world to retrieve current weather
+                conditions as well as a 5-day forecast. Technologies used:
+                HTML, CSS, Javascript, JQuery, OpenWeather API. UCR Coding
+                Bootcamp assignment #6.
+              </p>
+              <p>
+                <a href="https://marlonmatthew.github.io/weather-dashboard/" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  Deployed Site
+                </a>
+              </p>
+              <p>
+                <a href="https://github.com/marlonmatthew/weather-dashboard" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  GitHub Repo
+                </a>
+              </p>
+            </div>
+          </li>
+          <li class="media mb-1">
             <img src="img/daily-planner.jpg" class="mr-3" alt="Daily Planner UCA6" id="thumbnail">
             <div class="media-body">
-              <h5 class="mt-0 mb-1">Daily Planner UCA6</h5>
-              <p id="description">A 24 hour daily planner with an Amazon theme. UCR Coding Bootcamp assignment #5.</p>
-              <p><a href="https://marlonmatthew.github.io/daily-planner-uca6/" id="portfolio-link"
-                  target="_blank">Deployed Site</a>
+              <h5 class="mt-0 mb-1" id="project">Daily Planner UCA6
+              </h5>
+              <p id="description">
+                A 24 hour daily planner with an Amazon theme. Technologies
+                used: HTML, CSS, Javascript, JQuery. UCR Coding Bootcamp
+                assignment #5.
               </p>
-              <p><a href="https://github.com/marlonmatthew/daily-planner-uca6" id="portfolio-link"
-                  target="_blank">GitHub Repo</a>
+              <p>
+                <a href="https://marlonmatthew.github.io/daily-planner-uca6/" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  Deployed Site
+                </a>
               </p>
-            </div>
-          </li>
-          <li class="media">
-            <img src="img/javascript-quiz.jpg" class="mr-3" alt="JavaScript Quiz" id="thumbnail">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">JavaScript Quiz</h5>
-              <p id="description">A 5 question multiple choice quiz with high score functionality. UCR Coding Bootcamp
-                assignment #4.</p>
-              <p><a href="https://marlonmatthew.github.io/javascript-quiz/" id="portfolio-link" target="_blank">Deployed
-                  Site</a>
-              </p>
-              <p><a href="https://github.com/marlonmatthew/javascript-quiz" id="portfolio-link" target="_blank">GitHub
-                  Repo</a>
+              <p>
+                <a href="https://github.com/marlonmatthew/daily-planner-uca6" id="portfolio-link" target="_blank"
+                  rel="noreferrer">
+                  GitHub Repo
+                </a>
               </p>
             </div>
           </li>
-          <li class="media">
-            <img src="img/password-generator.jpg" class="mr-3" alt="Password Generator" id="thumbnail">
+          <li class="media mt-4 mb-4">
+            <img src="img/ricemusic.jpg" class="mr-3" alt="ricemusic.net" id="thumbnail">
             <div class="media-body">
-              <h5 class="mt-0 mb-1">Password Generator</h5>
-              <p id="description">Generate a password based off certain user criteria. UCR Coding Bootcamp assignment
-                #3.</p>
-              <p><a href="https://marlonmatthew.github.io/password-generator/" id="portfolio-link"
-                  target="_blank">Deployed Site</a>
+              <h5 class="mt-0" id="project">ricemusic.net
+              </h5>
+              <p id="description">
+                San Diego bassist Rice Enright has been a staple in the
+                music community for many years. It was important to create
+                this site with WordPress and Elementor, which gave him the
+                capability to make future updates and edits on his own. Many
+                of the services he provides as a music professional in the
+                community are featured here. Technologies used: Wordpress,
+                Elementor.
               </p>
-              <p><a href="https://github.com/marlonmatthew/password-generator" id="portfolio-link"
-                  target="_blank">GitHub Repo</a>
+              <p>
+                <a href="https://www.ricemusic.net" id="portfolio-link" target="_blank" rel="noreferrer">
+                  https://www.ricemusic.net
+                </a>
               </p>
             </div>
           </li>
         </ul>
+      </div>
+      <div class="col-md-auto mb-4">
+        <h2 class="header">
+          <u>Technical Skills</u>
+        </h2>
+        <p>
+          <b>Languages:</b> Javascript ES6+, CSS3, HTML5, SQL, NoSQL
+        </p>
+        <p>
+          <b>Skills:</b> GitHub, MySQL, MongoDB, ReactJS, Node.js, Express,
+          Handlebars.js, JQuery, Bootstrap
+        </p>
       </div>
     </div>
   </section>
 
   <section class="container">
     <div class="row">
-      <div class="col-sm mb-3">
-        <h2>About Me</h2>
-        <p>My first exposure to web design was my high school zero period class where I began
-          learning HTML and basic graphic design. Creating websites for personal endeavors was something I continued to
-          enjoy doing throughout the years.</p>
-        <p>In 2016, I completed an internship with Linguistic Horizons where I learned
-          how to use Wordpress and the many different plugins available. Shortly after, I took my first
-          client in the local music community. Utilizing both Wordpress and Elementor, I built a website that helped him
-          to increase his student base, receive new gig offers, and gain higher google search rankings.</p>
-        <p>I am currently completing a certification for a web development bootcamp in 2021 through the University of
-          California, Riverside. My knowledge and skills as a full stack web developer are greatly expanding. I am
-          excited to put my newly acquired skillset to use in the professional world. My
-          portfolio showcases many of the assignments and projects that I submitted throughout the
-          bootcamp. Outside of the bootcamp, my portfolio also showcases freelance work I completed.</p>
+      <div class="col-sm mb-3 mt-4">
+        <h2 class="header">
+          <u>About Me</u>
+        </h2>
+        <p>
+          My first exposure to web design was in 1995 at a computer camp
+          where I began learning HTML and basic graphic design. Soon after,
+          I took a web design class in high school where I continued to
+          develop these skills. Creating websites for personal endeavors was
+          something I continued to enjoy doing throughout the years.
+        </p>
+        <p>
+          In 2016, I completed an internship with Linguistic Horizons where
+          I learned how to use Wordpress and the many different plugins
+          available. Shortly after, I took my first client in the local
+          music community. Utilizing both Wordpress and Elementor, I built a
+          website that helped him to increase his student base, receive new
+          gig offers, and gain higher google search rankings.
+        </p>
+        <p>
+          I have completed a certification for a web development bootcamp in
+          2021 through the University of California, Riverside. My knowledge
+          and skills as a full stack web developer have greatly expanded. I
+          am excited to put my newly acquired skillset to use in the
+          professional world. My portfolio showcases many of the assignments
+          and projects that I submitted throughout the bootcamp. Outside of
+          the bootcamp, my portfolio also showcases freelance work I
+          completed.
+        </p>
       </div>
       <div class="col-md-auto mb-4">
-        <img class="mar_image" src="img/marlon-matthew-02.jpg" alt="Web developer Marlon Matthew">
+        <img class="mar_image mt-4" src="img/marlon-matthew-02.jpg" alt="Web developer Marlon Matthew">
       </div>
     </div>
   </section>
