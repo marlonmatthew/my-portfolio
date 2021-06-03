@@ -1,13 +1,63 @@
-# My Portfolio by Marlon Matthew
+## Marlon Matthew - Web Development Portfolio
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
-![Capture](https://user-images.githubusercontent.com/73320305/105277995-73537b80-5b59-11eb-86e3-9825d4111467.PNG)
+Full-stack web developer with a degree in International Business from San Diego State University. Bootcamp certification in full-stack web development attained in 2021 from the University of California, Riverside. Advanced proficiency in skills such as HTML5, CSS3, JavaScript, MySQL and more. Learned web design principles in 1995 and continued building personal websites since. Completed an Internship with Linguistic Horizons in 2016, utilizing WordPress to improve site appearance and enhance on-page SEO. Built a website in 2017 for a client in the music industry, increasing their online presence and enhancing lead generation. Working with Amazon since 2019 in a Ultra Fast Fresh Fulfillment Center where I have consistently displayed leadership skills and diligent work ethic. Passion for bringing designs to life and developing creative, intuitive and functional web applications as seen in my portfolio.
 
-My web development portfolio featuring links for my email, phone number, LinkedIn and Resume.
-Previous freelance projects and assignments/projects are featured in the Portfolio section.
-At the bottom is an about me section that describes my history with web-design and my current direction in web-development.
+![Capture](https://user-images.githubusercontent.com/73320305/116298033-d3594f80-a750-11eb-9b19-75b4a8e972d3.PNG)
 
-## Credits
+## Table of Contents
 
-All web development by Marlon Matthew.
+- [Installation](#installation)
+
+- [Usage](#usage)
+
+- [License](#license)
+
+- [Contributing](#contributing)
+
+- [Tests](#tests)
+
+- [Questions](#questions)
+
+---
+
+## Installation
+
+If you wish to run this app locally, download the zip file of the repo, open the unzipped folder in VScode, select index.html and right click anywhere in the code then select "Open in Default Browser".
+
+---
+
+## Usage
+
+https://marlonmatthew.github.io/my-portfolio/
+
+If you wish to run this app locally, follow the installation instructions.
+
+---
+
+## License
+
+This application is covered under the MIT license.
+
+---
+
+## Contributing
+
+If you wish to contribute to any of my repos, please contact me directly. See the Questions section below.
+
+---
+
+## Tests
+
+n/a
+
+---
+
+## Questions
+
+My email: marlonbmatthew@gmail.com
+
+My GitHub: https://github.com/marlonmatthew/
